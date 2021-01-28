@@ -1,8 +1,9 @@
 import React from 'react';
-import Welcome from './components/welcome';
+// import Welcome from './components/welcome';
 import Info from './components/info';
 import Form from './components/form';
 import Weather from './components/weather';
+import Greeting from './components/Greeting';
 
 //API key
 const API_KEY = '01195fa0bf71ec2ea337ab1a89cc4cc6';
@@ -49,7 +50,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Welcome name="Dmitiy" />
+        <Greeting name="Dmitiy" />
         <Info />
         <Form weatherMethod={this.gettingWeather} />
         <Weather
