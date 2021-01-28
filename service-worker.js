@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/DimonLy/DimonLy.github.io.git/precache-manifest.9cbda609404cf0b5c671985150fabc4b.js"
+  "/DimonLy/DimonLy.github.io.git/precache-manifest.f038e89412d110b8ebc72e0598403963.js"
 );
 
 workbox.clientsClaim();
