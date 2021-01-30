@@ -2,7 +2,7 @@
   "name": "cities",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/DimonLy/DimonLy.github.io.git",
+  "homepage": "https://dimonly.github.io/",
   "dependencies": {
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
