@@ -1,13 +1,13 @@
 {
-  "main.css": "/DimonLy/DimonLy.github.io.git/static/css/main.4096633c.chunk.css",
-  "main.js": "/DimonLy/DimonLy.github.io.git/static/js/main.141e6411.chunk.js",
-  "main.js.map": "/DimonLy/DimonLy.github.io.git/static/js/main.141e6411.chunk.js.map",
-  "static/js/1.c129698d.chunk.js": "/DimonLy/DimonLy.github.io.git/static/js/1.c129698d.chunk.js",
-  "static/js/1.c129698d.chunk.js.map": "/DimonLy/DimonLy.github.io.git/static/js/1.c129698d.chunk.js.map",
-  "runtime~main.js": "/DimonLy/DimonLy.github.io.git/static/js/runtime~main.9ffb5863.js",
-  "runtime~main.js.map": "/DimonLy/DimonLy.github.io.git/static/js/runtime~main.9ffb5863.js.map",
-  "static/css/main.4096633c.chunk.css.map": "/DimonLy/DimonLy.github.io.git/static/css/main.4096633c.chunk.css.map",
-  "index.html": "/DimonLy/DimonLy.github.io.git/index.html",
-  "precache-manifest.f038e89412d110b8ebc72e0598403963.js": "/DimonLy/DimonLy.github.io.git/precache-manifest.f038e89412d110b8ebc72e0598403963.js",
-  "service-worker.js": "/DimonLy/DimonLy.github.io.git/service-worker.js"
+  "main.css": "/static/css/main.4096633c.chunk.css",
+  "main.js": "/static/js/main.1d5da657.chunk.js",
+  "main.js.map": "/static/js/main.1d5da657.chunk.js.map",
+  "static/js/1.c129698d.chunk.js": "/static/js/1.c129698d.chunk.js",
+  "static/js/1.c129698d.chunk.js.map": "/static/js/1.c129698d.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/css/main.4096633c.chunk.css.map": "/static/css/main.4096633c.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.458e89a25ff2cb160bf0bdd2a76c3d52.js": "/precache-manifest.458e89a25ff2cb160bf0bdd2a76c3d52.js",
+  "service-worker.js": "/service-worker.js"
 }
