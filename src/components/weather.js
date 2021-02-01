@@ -1,21 +1,22 @@
 import React from 'react';
 
-const Weather = (props) => {
-    return (
+const Weather = ({ ...data }) => {
+  return (
+    <div>
+      {data.name && (
         <div>
-            {props.city &&
-                <div>
-                    <p>Location: {props.city}, {props.country}</p>
-                    <p>Temperature: {props.temp}</p>
-                    <p>Pressure: {props.pressure}</p>
-                    <p>Sunset: {props.sunset}</p>
-                    <p>{props.error}</p>
-                </div>
-            }
-            <p>{props.error}</p>
+          <p>
+            Location: {data.name}, {data.sys.country}
+          </p>
+          <p>Temperature: {data.main.temp}</p>
+          <p>Pressure: {data.main.pressure}</p>
+          <p>Sunset: {data.sys.sunset}</p>
+          <p>{data.error}</p>
         </div>
-
-    );
-}
+      )}
+      <p>{data.error}</p>
+    </div>
+  );
+};
 
 export default Weather;
