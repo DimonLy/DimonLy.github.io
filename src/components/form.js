@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import Weather from './weather';
+import Weather from './Weather';
+import './Form.css';
 
 const API_KEY = '01195fa0bf71ec2ea337ab1a89cc4cc6';
 function Form() {
@@ -19,7 +20,7 @@ function Form() {
   };
   return (
     <div>
-      <form onSubmit={gettingWeather}>
+      <form className="form" onSubmit={gettingWeather}>
         <input type="text" name="city" placeholder="City" />
         <button>Receive weather</button>
       </form>

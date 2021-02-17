@@ -1,0 +1,12 @@
+.container{
+    background-color: lightgray;
+    border-radius: 8px;
+    display:flex;
+    justify-content: center;
+}
+.container>p{
+    padding-right: 5px;
+    border: solid 2px red;
+    flex:1 1 0px;
+
+}
